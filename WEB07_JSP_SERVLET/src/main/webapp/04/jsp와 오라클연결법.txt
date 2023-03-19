@@ -1,0 +1,5 @@
+java project 안에 
+
+webapp -> web-INF -> lib -> 여기 안에다가 오라클 파일을 넣는다 
+무슨파일?
+ojdbc6.jar (이거 연결)

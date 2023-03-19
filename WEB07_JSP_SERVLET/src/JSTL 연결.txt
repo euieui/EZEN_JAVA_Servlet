@@ -1,0 +1,2 @@
+jstl download (구글 첫번째글) -> 2.4 download -> binaries -> jakarta-taglibs-standard-1.1.2.zip                
+2004-10-25 20:57  933K  다운 -> lib 파일에 있는 2개를 이클립스 WEB-INF lib 에 넣기!
