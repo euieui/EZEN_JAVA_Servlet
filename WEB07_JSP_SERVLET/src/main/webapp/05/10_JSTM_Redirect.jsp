@@ -9,6 +9,7 @@
 <body>
 
 <c:redirect url="09_JSTL_Import.jsp"></c:redirect>
+
 <%-- <% response.sendRedirect("09_JSTL_Import.jsp"); %> --%> <!-- 이내용을 위와같이 표현 -->
 
 </body>

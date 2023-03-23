@@ -32,6 +32,8 @@ public class Forward_useServlet extends HttpServlet {
 		// 전달값들의 한글 인코딩 설정
 		response.setCharacterEncoding("UTF-8");
 		request.setCharacterEncoding("UTF-8");
+		// request.setCharacterEncoding("UTF-8");
+		
 		// 전달된 파라미터 변수에 저장
 		String id = request.getParameter("id");
 		String pwd = request.getParameter("pwd");
@@ -43,6 +45,7 @@ public class Forward_useServlet extends HttpServlet {
 			dp.forward(request,response);
 		}else {
 			response.sendRedirect("02/101_Forward_UseServlet.jsp");
+			// response.sendRedirect();
 		}
 	}
 

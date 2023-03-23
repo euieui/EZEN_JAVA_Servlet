@@ -29,7 +29,7 @@ member.setUserid("HongGilDong");
 <jsp:setProperty name="member" property="name" value="홍길서"/>
 <jsp:setProperty name="member" property="userid" value="HongGilSeo"/>
 이름 : <jsp:getProperty name="member" property="name"/> <br>
-아이디 : <jsp:getProperty name="member" property="userid"/>
+아이디 : <jsp:getProperty name="member" property="userid"/>  <!-- 어색한 기법들 알아두자! -->
 
 	
 </body>

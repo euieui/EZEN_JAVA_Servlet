@@ -45,7 +45,7 @@ ${status.last} : 현재 루프가 마지막이면  true 리턴 --%>
 <%-- ${status.current} : 현재 아이템
 ${status.begin} : 시작값
 ${status.end} : 끝값
-${status.step} : 증가값 --%>	
+${status.step} : 증가값 잘 외워야 겠어 --%>	
 
 </body>
 </html>

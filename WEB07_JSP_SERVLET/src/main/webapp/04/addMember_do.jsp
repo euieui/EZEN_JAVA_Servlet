@@ -18,6 +18,7 @@ String userid = request.getParameter("userid");
 String pwd = request.getParameter("pwd");
 String phone = request.getParameter("phone");
 
+
 try {
 	Class.forName(driver);
 	con = DriverManager.getConnection(url,uid,pass);

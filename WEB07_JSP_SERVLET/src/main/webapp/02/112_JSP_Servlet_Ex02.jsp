@@ -22,9 +22,9 @@
 성별 : <%=gender %><br>
 메일수신 : <%=chk_mail %><br>
 하고싶은 말 : <%=content %><br>
-구입항목 : <%for(String s : items ) out.print(s+" "); %><br>
+구입항목 : <% for(String s : items ) out.print(s +" "); %><br>
 직업 : <%=job %><br>
-관심 분야 : <% for(String s : interests) out.print(s + " "); %><br>
+관심 분야 : <% for(String k : interests) out.print(k + " "); %><br>
 
 
 

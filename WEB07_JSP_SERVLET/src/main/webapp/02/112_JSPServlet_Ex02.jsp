@@ -10,6 +10,7 @@
 <h3> <%=request.getAttribute("name") %>님 반갑습니다.</h3>
 <h3>성별은
 <%
+/* boolean a = request.getParameter("gender").equals(" ");  equals 뭐가 문제있네*/ 
 if(request.getParameter("gender").equals("1")){
 	out.print("남자");
 }else{

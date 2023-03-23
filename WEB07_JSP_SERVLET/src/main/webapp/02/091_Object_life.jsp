@@ -7,6 +7,7 @@
 <title>091_Object_life</title>
 </head>
 <body>
+
 <%
 pageContext.setAttribute("name","page man"); // pageContext: 현재페이지까지
 request.setAttribute("name","request man"); // request : 다음 페이지까지
@@ -20,7 +21,9 @@ System.out.println("First의 session 객체 : " + session.getAttribute("name"));
 System.out.println("First의 application 객체 : " + application.getAttribute("name"));
 
 RequestDispatcher dispatcher = request.getRequestDispatcher("092_ObjectLife.jsp");
+/* RequestDispatcher dispatcher = request.getRequestDispatcher(); */
 dispatcher.forward(request,response);
 %>
+
 </body>
 </html>
