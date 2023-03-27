@@ -1,0 +1,4 @@
+http://servlets.com/cos/
+
+아래에 알집 다운받고  lib 에 있는 cos.jar 를
+web-in lib에 넣으면 된다! 그다음 코드!
